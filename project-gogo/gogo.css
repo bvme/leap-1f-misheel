@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 100px;
+    font-style: bold;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    height: fit-content;
+    border: #fff solid;
+    gap: 5px;
+    cursor: grab;
+}
+.news {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    height: fit-content;
+    border: #fff solid;
+    gap: 5px;
+    cursor: grab;
+}
+.gogo-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    height: fit-content;
+    border: #fff solid;
+    gap: 5px;
+    cursor: grab;
+}
+.watch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    height: fit-content;
+    border: #fff solid;
+    gap: 5px;
+    cursor: grab;
+}
+.design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    height: fit-content;
+    border: #fff solid;
+    gap: 5px;
+    cursor: grab;
+}
+.english {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    height: fit-content;
+    border: #fff solid;
+    gap: 5px;
+    cursor: grab;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    background-color: #fff;
+    height: fit-content;
+    border: #fff solid;
+    gap: 5px;
+    cursor: grab;
+}
+.menu img {
+    width: 10px;
+    height: 10px;
+}
+.menu-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+}
+.menu-2 img {
+    width: 20px;
+    height: 20px;
+}
+.weather {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    height: fit-content;
+    border: #fff solid;
+    gap: 5px;
+    cursor: grab;
+}
+.astrology {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    height: fit-content;
+    border: #fff solid;
+    gap: 5px;
+    cursor: grab;
+}
+.currency {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    height: fit-content;
+    border: #fff solid;
+    gap: 5px;
+    cursor: grab;
+}
