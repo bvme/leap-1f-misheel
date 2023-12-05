@@ -52,12 +52,11 @@ switch (cash) {
     window.alert("хүлээн авах боломжгүй дэвсгэрт байна")
 }
 let change = cash - select_product
-do {
-    devsgert = change % 10000
-} while ( change - 10000)
+if (cash > select_product){
+    if (change > 10000){
 
-// if (cash > select_product){
-//     window.alert (`Таны бүтээгдэхүүн амжилттай захиалагдлаа. Таны хариулт ₮${cash - select_product}. Баярлалаа.`)
-// } else if (cash < select_product){
-//     window.alert ("Мөнгөн дэвсгэрт хүрэлцэхгүй байна")
-// }
+    }
+    window.alert (`Таны бүтээгдэхүүн амжилттай захиалагдлаа. Таны хариулт ₮${cash - select_product}. Баярлалаа.`)
+} else if (cash < select_product){
+    window.alert ("Мөнгөн дэвсгэрт хүрэлцэхгүй байна")
+}
