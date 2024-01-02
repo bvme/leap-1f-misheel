@@ -15,10 +15,7 @@
 
 
 
-const containerEl = document.getElementsByClassName("container");
-const button = document.getElementsByTagName("button");
+function myFunction() {
+  document.getElementById("container").style.backgroundColor = "lightblue";
+}
 
-const change = () => {
-    document.div.style = "background-color: red";
-};
-button.addEvenListener("click", change);
