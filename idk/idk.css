@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+.container {
+    margin: 134px ; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.employment-card {
+    border: 2px solid rgb(213, 213, 213);
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+img {
+    overflow: hidden;
+}
+p {
+    font-family: 'open sans';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal ;
+    width: fit-content;
+}
+h1 {
+    font-family: 'Open sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: fit-content;
+}

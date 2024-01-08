@@ -1,16 +1,10 @@
 const cardElement = () => {
-  `
-  <div class="card" draggable="true" data-id=${id}>
-    ${
-      status === "done"
-        ? `<div class="checked"><i class="fas fa-check"></i></div>`
-        : `<div class="done" onclick="makeDone('${id}')"><i class="fas fa-check"></i></div>`
-    }
+  `<div class="card" draggable="true" data-id=${id}>
     <div class="details">
-      <h4>${title}</h4>
-      <p>${description}</p>
+      <h4> sleep </h4>
+      <p> 8 hours a day </p>
       <div class="priority">
-        ${priority}
+        medium
       </div>
     </div>
     <div class="actions">
@@ -38,7 +32,7 @@ const addTodo = () => {
     Priority: priorityInputValue,
   };
 }; 
-document.querySelector(".cards").innerHTML = boxArray;
+document.querySelector(".cards").innerHTML = cardElement;
 //backdrop active, remove
 document.querySelectorAll("#add-btn").forEach((btn) => {
   btn.addEventListener("click", () => {
